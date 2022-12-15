@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+
+.holder{
+    display:grid;    
+    grid-template-columns: 200px 200px;
+    grid-template-rows: repeat(2,200px);
+
+}
+
+.item{
+    width: 175px;
+    height: 175px;
+}
+
+.item-1{
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+}
+.item-2{
+    background: green;
+    text-align: center;
+    justify-content: center;
+}
+.item-3{
+    background: yellow;
+    text-align: center;
+    justify-content: center;
+
+}
+.item-4{
+    background:red;
+    text-align: center;
+    justify-content: center;
+}
